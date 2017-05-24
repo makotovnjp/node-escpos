@@ -68,7 +68,7 @@ _.MARGINS = {
  */
 _.PAPER = {
     //PAPER_FULL_CUT  : '\x1d\x56\x00' , // Full cut paper
-    PAPER_FULL_CUT  : '\x1b\x64\x03' , // Full cut paper
+    PAPER_FULL_CUT  : '\x1b\x64\x02' , // Full cut paper
 
     PAPER_CUT_A     : '\x1d\x56\x41' , // Partial cut paper
     PAPER_CUT_B     : '\x1d\x56\x42' , // Partial cut paper
