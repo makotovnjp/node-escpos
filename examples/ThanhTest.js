@@ -16,7 +16,7 @@ device.open(function(){
     .text("ご利用ありがとうございます3")
         //.cashdraw()
     .cut()
-        .close()
+        //.close()
         //.cashdraw()
         //.flush()
     ;
@@ -30,34 +30,15 @@ device.open(function(){
 });
 
 setTimeout(function () {
-    // printer
-    //     .text("ご利用ありがとうございます3")
-    //     .text("ご利用ありがとうございます3")
-    //     .text("ご利用ありがとうございます3")
-    //     //.cashdraw()
-    //    .cut()
-    // .close();
-
-    device.open(function(){
-
-        printer
-            .text("ご利用ありがとうございます3")
-            .text("ご利用ありがとうございます3")
-            .text("ご利用ありがとうございます3")
-            //.cashdraw()
-            .cut()
-            .close()
+    printer
+        .text("ご利用ありがとうございます3")
+        .text("ご利用ありがとうございます3")
+        .text("ご利用ありがとうございます3")
         //.cashdraw()
-        //.flush()
-        ;
+       .cut()
+    .close();
 
 
-        //printer.cashdraw();
-
-        //printer.cashdraw(5);
-        //printer.close();
-
-    });
 
 
 },5000);
