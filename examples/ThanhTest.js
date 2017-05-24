@@ -86,4 +86,4 @@ setTimeout(function () {
     .close();
 
 
-},5000);
+},10000);
