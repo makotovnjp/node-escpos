@@ -29,22 +29,44 @@ device.open(function(){
 
 });
 
-setInterval(function () {
+// setInterval(function () {
+//     printer
+//         .text("ご利用ありがとうございます3")
+//         .text("ご利用ありがとうございます3")
+//         .text("ご利用ありがとうございます3")
+//         //.cashdraw()
+//         .cut();
+//        // .close();
+// },5000);
+
+setTimeout(function () {
     printer
         .text("ご利用ありがとうございます3")
         .text("ご利用ありがとうございます3")
         .text("ご利用ありがとうございます3")
         //.cashdraw()
         .cut();
-       // .close();
+    // .close();
+
+
+    // printer
+    //
+    // .close();
+
 },5000);
 
 setTimeout(function () {
+    printer
+        .text("ご利用ありがとうございます3")
+        .text("ご利用ありがとうございます3")
+        .text("ご利用ありがとうございます3")
+        //.cashdraw()
+        .cut()
+        .close();
 
 
-    s
+    // printer
+    //
+    // .close();
 
-
-
-
-},50000);
+},10000);
