@@ -41,6 +41,7 @@ setInterval(function () {
 
 setTimeout(function () {
 
+
     printer
 
     .close();
