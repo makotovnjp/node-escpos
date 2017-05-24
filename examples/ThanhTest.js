@@ -31,7 +31,7 @@ device.open(function(){
     // printer.text("ご利用ありがとうございます2",'Shift_JIS');
     //
     //
-    printer.cashdraw();
+    //printer.cashdraw();
     console.log("1");
 
     printer.text("ご利用ありがとうございます3");
