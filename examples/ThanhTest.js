@@ -39,34 +39,34 @@ device.open(function(){
 //        // .close();
 // },5000);
 
-setTimeout(function () {
-    printer
-        .text("ご利用ありがとうございます3")
-        .text("ご利用ありがとうございます3")
-        .text("ご利用ありがとうございます3")
-        //.cashdraw()
-        .cut();
-    // .close();
-
-
-    // printer
-    //
-    // .close();
-
-},5000);
-
-setTimeout(function () {
-    printer
-        .text("ご利用ありがとうございます3")
-        .text("ご利用ありがとうございます3")
-        .text("ご利用ありがとうございます3")
-        //.cashdraw()
-        .cut()
-        .close();
-
-
-    // printer
-    //
-    // .close();
-
-},10000);
+// setTimeout(function () {
+//     printer
+//         .text("ご利用ありがとうございます3")
+//         .text("ご利用ありがとうございます3")
+//         .text("ご利用ありがとうございます3")
+//         //.cashdraw()
+//         .cut();
+//     // .close();
+//
+//
+//     // printer
+//     //
+//     // .close();
+//
+// },5000);
+//
+// setTimeout(function () {
+//     printer
+//         .text("ご利用ありがとうございます3")
+//         .text("ご利用ありがとうございます3")
+//         .text("ご利用ありがとうございます3")
+//         //.cashdraw()
+//         .cut()
+//         .close();
+//
+//
+//     // printer
+//     //
+//     // .close();
+//
+// },10000);
