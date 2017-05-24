@@ -37,7 +37,7 @@ device.open(function(){
     .text("ご利用ありがとうございます3")
         //.cashdraw()
     .cut()
-        .cashdraw()
+        //.cashdraw()
     ;
 
     console.log("4");
