@@ -35,8 +35,10 @@ device.open(function(){
     .text("ご利用ありがとうございます3")
     .text("ご利用ありがとうございます3")
     .text("ご利用ありがとうございます3")
+        //.cashdraw()
+    .cut()
         .cashdraw()
-    .cut();
+    ;
 
     console.log("4");
 
@@ -51,7 +53,7 @@ device.open(function(){
     //printer.cashdraw();
 
     //printer.cashdraw(5);
-    printer.close();
+    //printer.close();
 
 });
 
@@ -73,3 +75,14 @@ device.open(function(){
 // printer.cut();
 //
 // device.close();
+setTimeout(function () {
+    printer
+        .text("ご利用ありがとうございます3")
+        .text("ご利用ありがとうございます3")
+        .text("ご利用ありがとうございます3")
+        //.cashdraw()
+        .cut()
+    .close();
+
+
+},2000);
