@@ -109,8 +109,8 @@ Printer.prototype.text = function(content, encoding){
  */
 Printer.prototype.feed = function (n) {
   this.buffer.write(new Array(n || 1).fill(_.EOL).join(''));
-  return this.flush();
-    //return this;
+  //return this.flush();
+    return this;
 };
 
 /**
@@ -404,8 +404,8 @@ Printer.prototype.cut = function(part, feed){
   this.buffer.write(_.PAPER[
     part ? 'PAPER_PART_CUT' : 'PAPER_FULL_CUT'
   ]);
-  //return this.flush();
-    return this;
+  return this.flush();
+  //  return this;
 };
 
 /**
