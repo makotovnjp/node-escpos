@@ -417,8 +417,8 @@ Printer.prototype.cashdraw = function(pin){
   this.buffer.write(_.CASH_DRAWER[
     'CD_KICK_' + (pin || 2)
   ]);
-  //return this.flush();
-    return this;
+  return this.flush();
+  //  return this;
 };
 
 /**
