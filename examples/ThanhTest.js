@@ -31,20 +31,20 @@ device.open(function(){
     // printer.text("ご利用ありがとうございます2",'Shift_JIS');
     //
     //
-    //printer.cashdraw();
-    console.log("1");
+    printer.cashdraw()
+    .text("ご利用ありがとうございます3")
+    .text("ご利用ありがとうございます3")
+    .text("ご利用ありがとうございます3")
+    .cut();
 
-    printer.text("ご利用ありがとうございます3");
-    printer.text("ご利用ありがとうございます3");
-    printer.text("ご利用ありがとうございます3");
     console.log("4");
 
 
-    printer.text("abc");
+    //printer.text("abc");
     console.log("5");
 
 
-    printer.cut();
+   // printer.cut();
     console.log("6");
 
     //printer.cashdraw();
