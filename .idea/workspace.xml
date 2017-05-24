@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1577ea4b-fb7a-45b5-b013-8d8697b7c523" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ThanhTest.js" afterPath="$PROJECT_DIR$/examples/ThanhTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/printer.js" afterPath="$PROJECT_DIR$/printer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThanhTest.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThanhTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/ThanhTest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="printer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="printer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/printer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="406" column="16" lean-forward="false" selection-start-line="406" selection-start-column="16" selection-end-line="406" selection-end-column="16" />
+            <state relative-caret-position="263">
+              <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -139,8 +139,8 @@
       <list>
         <option value="$PROJECT_DIR$/examples/index.js" />
         <option value="$PROJECT_DIR$/commands.js" />
-        <option value="$PROJECT_DIR$/printer.js" />
         <option value="$PROJECT_DIR$/examples/ThanhTest.js" />
+        <option value="$PROJECT_DIR$/printer.js" />
       </list>
     </option>
   </component>
@@ -310,12 +310,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495614120795</updated>
-      <workItem from="1495614121985" duration="4251000" />
+      <workItem from="1495614121985" duration="4331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4251000" />
+    <option name="totallyTimeSpent" value="4331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -399,18 +399,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/printer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="406" column="16" lean-forward="false" selection-start-line="406" selection-start-column="16" selection-end-line="406" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/ThanhTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
           <folding />
         </state>
       </provider>
