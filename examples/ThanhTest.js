@@ -81,7 +81,7 @@ setTimeout(function () {
         .text("ご利用ありがとうございます3")
         .text("ご利用ありがとうございます3")
         //.cashdraw()
-        .cut()
+       // .cut()
     .close();
 
 
