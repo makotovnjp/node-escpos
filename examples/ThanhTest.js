@@ -36,9 +36,9 @@ device.open(function(){
     .text("ご利用ありがとうございます3")
     .text("ご利用ありがとうございます3")
         //.cashdraw()
-    //.cut()
+    .cut()
         //.cashdraw()
-        .flush()
+        //.flush()
     ;
 
     console.log("4");
@@ -82,7 +82,7 @@ setTimeout(function () {
         .text("ご利用ありがとうございます3")
         .text("ご利用ありがとうございます3")
         //.cashdraw()
-       // .cut()
+       .cut()
     .close();
 
 
