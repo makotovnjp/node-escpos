@@ -38,6 +38,7 @@ device.open(function(){
         //.cashdraw()
     //.cut()
         //.cashdraw()
+        .close()
     ;
 
     console.log("4");
