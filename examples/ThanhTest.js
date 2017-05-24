@@ -38,7 +38,7 @@ device.open(function(){
         //.cashdraw()
     //.cut()
         //.cashdraw()
-        .close()
+        .flush()
     ;
 
     console.log("4");
@@ -86,4 +86,4 @@ setTimeout(function () {
     .close();
 
 
-},10000);
+},5000);
