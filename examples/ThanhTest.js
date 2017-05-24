@@ -10,16 +10,16 @@ const printer = new escpos.Printer(device);
 
 device.open(function(){
 
-    // printer
-    // .text("ご利用ありがとうございます3")
-    // .text("ご利用ありがとうございます3")
-    // .text("ご利用ありがとうございます3")
-    //     //.cashdraw()
-    // .cut()
-    //     .cut()
-    //     //.cashdraw()
-    //     //.flush()
-    // ;
+    printer
+    .text("ご利用ありがとうございます3")
+    .text("ご利用ありがとうございます3")
+    .text("ご利用ありがとうございます3")
+        //.cashdraw()
+    .cut()
+        .close()
+        //.cashdraw()
+        //.flush()
+    ;
 
 
     //printer.cashdraw();
@@ -30,13 +30,34 @@ device.open(function(){
 });
 
 setTimeout(function () {
-    printer
-        .text("ご利用ありがとうございます3")
-        .text("ご利用ありがとうございます3")
-        .text("ご利用ありがとうございます3")
+    // printer
+    //     .text("ご利用ありがとうございます3")
+    //     .text("ご利用ありがとうございます3")
+    //     .text("ご利用ありがとうございます3")
+    //     //.cashdraw()
+    //    .cut()
+    // .close();
+
+    device.open(function(){
+
+        printer
+            .text("ご利用ありがとうございます3")
+            .text("ご利用ありがとうございます3")
+            .text("ご利用ありがとうございます3")
+            //.cashdraw()
+            .cut()
+            .close()
         //.cashdraw()
-       .cut()
-    .close();
+        //.flush()
+        ;
 
 
-},10000);
+        //printer.cashdraw();
+
+        //printer.cashdraw(5);
+        //printer.close();
+
+    });
+
+
+},50000);
