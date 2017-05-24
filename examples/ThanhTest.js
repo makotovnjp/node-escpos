@@ -10,16 +10,16 @@ const printer = new escpos.Printer(device);
 
 device.open(function(){
 
-    printer
-    .text("ご利用ありがとうございます3")
-    .text("ご利用ありがとうございます3")
-    .text("ご利用ありがとうございます3")
-        //.cashdraw()
-    .cut()
-        .cut()
-        //.cashdraw()
-        //.flush()
-    ;
+    // printer
+    // .text("ご利用ありがとうございます3")
+    // .text("ご利用ありがとうございます3")
+    // .text("ご利用ありがとうございます3")
+    //     //.cashdraw()
+    // .cut()
+    //     .cut()
+    //     //.cashdraw()
+    //     //.flush()
+    // ;
 
 
     //printer.cashdraw();
